@@ -2,7 +2,7 @@ package toilet.isaric;
 
 import kattis.Kattio;
 import toilet.isaric.strategy.ToiletStrategy;
-import toilet.isaric.strategy.impl.CategoricalImperativeToiletStrategy;
+import toilet.isaric.strategy.impl.CategoricalToiletStrategy;
 import toilet.isaric.strategy.impl.SeatDownToiletStrategy;
 import toilet.isaric.strategy.impl.SeatUpToiletStrategy;
 
@@ -21,7 +21,7 @@ public class PolicyEvaluator {
     {
         seatUp = new SeatUpToiletStrategy();
         seatDown = new SeatDownToiletStrategy();
-        categoricalImperative = new CategoricalImperativeToiletStrategy();
+        categoricalImperative = new CategoricalToiletStrategy();
     }
 
     public static void main(String[] args)
