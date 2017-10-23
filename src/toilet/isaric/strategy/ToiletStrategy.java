@@ -5,5 +5,5 @@ package toilet.isaric.strategy;
  */
 public interface ToiletStrategy {
 
-    int evaluate(String toilets, char initial);
+  int evaluate(String toilets, char initial);
 }

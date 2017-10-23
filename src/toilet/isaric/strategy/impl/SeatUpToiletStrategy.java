@@ -5,8 +5,7 @@ package toilet.isaric.strategy.impl;
  */
 public class SeatUpToiletStrategy extends AbstractToiletStrategy {
 
-    public SeatUpToiletStrategy()
-    {
-        setState('U');
-    }
+  public SeatUpToiletStrategy() {
+    setState('U');
+  }
 }
